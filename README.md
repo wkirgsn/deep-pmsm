@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wkirgsn/deep-pmsm/scheme.png" width="400" />
+  <img src="scheme.png" width="400" />
 </p>
 
 ---
