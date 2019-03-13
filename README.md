@@ -8,7 +8,7 @@
 currents, voltages, coolant and ambient temperatures, and torque as well as motor speed.
 All sensor data is recorded on a testbench.
 
-*Caution*: Dataset is anonymized and incomplete in order to meet confidentiality obligations.
+*Caution: Dataset is anonymized and incomplete in order to meet confidentiality obligations.*
 
 ## Getting Started
 In order to clone this repo and use as a package in your own python projects, proceed as follows:
@@ -25,12 +25,12 @@ import pmsm
 Alternatively, work with this repo directly if you do not intend to import parts of this project into other projects.
 
 ## Structure
-Data must be available in pmsm/data/input - all results of trainings and 
-predictions are stored in pmsm/data/output. Specific paths are editable in 
+Data must be available in *pmsm/data/input* - all results of trainings and 
+predictions are stored in *pmsm/data/output*. Specific paths are editable in 
 *pmsm/preprocessing/config.py* though. Data formatting is dealt with in *preprocessing/*, while hyper parameter tuning 
 is conducted with utilities from *opt/*.
 
-Executable python files are located in root package folder.
+Executable python files are located in root package folder *pmsm/*.
 
 Most configurations can be adjusted in *pmsm/preprocessing/config.py*.
 
