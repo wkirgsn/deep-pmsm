@@ -24,6 +24,13 @@ import pmsm
 ```
 Alternatively, work with this repo directly if you do not intend to import parts of this project into other projects.
 
+### Dataset
+Download the dataset here:
+https://www.kaggle.com/wkirgsn/electric-motor-temperature
+
+You can also just click [here](https://www.kaggle.com/wkirgsn/electric-motor-temperature/downloads/electric-motor-temperature.zip/2).
+Place the unzipped .csv file in pmsm/data/input/.
+
 ## Structure
 Data must be available in *pmsm/data/input* - all results of trainings and 
 predictions are stored in *pmsm/data/output*. Specific paths are editable in 
