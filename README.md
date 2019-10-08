@@ -4,6 +4,10 @@
 </p>
 
 ---
+# Disclaimer: This repo has moved to the UPB-LEA organization site!
+Get the up-to-date code here:
+https://github.com/upb-lea/deep-pmsm
+---
 **DEEP learning for Permanent Magnet Synchronous Motor temperatures**. This project aims to estimate temperature sequences inside Permanent Magnet Synchronous Motors from given input sequences, that is, 
 currents, voltages, coolant and ambient temperatures, and torque as well as motor speed.
 All sensor data is recorded on a testbench.
